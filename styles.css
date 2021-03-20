@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-image {
+    width: 40%;
+    height: 40%;
+    padding: 30px;
+    margin: 30px;
+}
+
+.main-h1 {
+    color: purple;
+    font-family: 'Syne Mono';
+}
+
+.description {
+    color:black;
+}
+
+.text {
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 30px;
+}
+
+@media (max-width: 480px) {
+    .main-image {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
