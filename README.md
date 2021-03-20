@@ -67,7 +67,7 @@ And also type the following into terminal to match your Git email to your Github
 
 **Optional**: set up VS-Code with git
 - Open VS Code, go to Command Palette (Cmd-Shift-P), and click "Shell Command: Install 'code' command in PATH"
-- Type `$ git config --global core.editor=code --wait`
+- Type `$ git config --global core.editor "code --wait"`
 
 Return to the Github repository for Personal Website Hack Day. Fork this repository using the link below the topbar:
   ![How to fork a repository](https://help.github.com/assets/images/help/repository/fork_button.jpg)
