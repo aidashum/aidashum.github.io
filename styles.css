@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: row;
+    color: 'black';
 }
 
 .main-image {
@@ -17,6 +18,7 @@
 
 .description {
     color:black;
+    font-family: 'Arial';
 }
 
 .text {
